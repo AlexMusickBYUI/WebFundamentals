@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(255, 198, 208);
+    max-width: 30em;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+
+#gospellist ol {
+    color: black;
+    display: block;
+    max-width: 20em;
+    margin: 0 auto;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#nelsonimg {
+    display: block;
+    width: 35%;
+    height: auto;
+    margin: 0 auto;
+}
+
+#bottom p {
+    color: black;
+}
+
+#bottom h2 {
+    display: block;
+    max-width: 20em;
+}
+
+/* Fonts */
+
+#top h1, p.sig, #bottom p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
