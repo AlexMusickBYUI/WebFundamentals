@@ -69,6 +69,10 @@ footer a {
     text-decoration: none;
 }
 
+footer {
+    background-color: #FFD37C;
+}
+
 footer a:hover {
     color: #29613b;
 }
@@ -79,4 +83,8 @@ footer a:hover {
 
 #hero-img {
     width: 100%;
+}
+
+.msg {
+    background-color: #FFD37C;
 }
