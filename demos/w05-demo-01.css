@@ -1,0 +1,18 @@
+#first {
+    /* width: 500px; */
+    border: 5px solid orange;
+    /* This is a shortcut for setting values for border-width, border-style, and border-color */
+    border-radius: 5%;
+    padding: 20px;
+    margin: 50px;
+    background-color: red;
+    color: white;
+}
+
+#picture {
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    overflow: auto;
+}

@@ -1,3 +1,7 @@
+:root {
+    --primary_color: #FFD37C;
+}
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -10,7 +14,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #FFD37C;
+    background-color: var(--primary_color);
     color: #29613b;
 }
 
@@ -32,11 +36,11 @@ main section {
 
 #background {
     height: 725px;
-    background-color: #FFD37C;
+    background-color: var(--primary_color);
 }
 
 header {
-    background-color: #FFD37C;
+    background-color: var(--primary_color);
 }
 
 h4 {
@@ -70,7 +74,7 @@ footer a {
 }
 
 footer {
-    background-color: #FFD37C;
+    background-color: var(--primary_color);
 }
 
 footer a:hover {
@@ -86,5 +90,5 @@ footer a:hover {
 }
 
 .msg {
-    background-color: #FFD37C;
+    background-color: var(--primary_color);
 }
