@@ -92,6 +92,7 @@ h4 {
 
 .book:hover, .join:hover {
     color: #29613b;
+    background-color: var(--primary_color);
 }
 
 .msg h2 {
@@ -150,7 +151,7 @@ footer .social img {
 #hero-msg {
     grid-column: 2/3;
     grid-row: 1/2;
-    margin-top: 400px;
+    margin-top: 250px;
 }
 
 #hero-msg h4 {
