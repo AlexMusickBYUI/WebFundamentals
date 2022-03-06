@@ -285,3 +285,31 @@ footer {
         margin-top: 25px;
     }
 }
+
+/* FAQ specific  */
+
+
+#faq-main {
+    display: inline;
+    /* margin: 0 auto; */
+    text-align: center;
+    font-family: "Roboto Condensed", Arial, sans-serif;
+}
+
+#faq-main h1 {
+    font-family: Shojumaru, Georgia, serif;
+    font-size: 3em;
+}
+
+#faq-answers {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.spacer {
+    height: 100px;
+}
+
+.faq-question p {
+    color: #313131;
+}
