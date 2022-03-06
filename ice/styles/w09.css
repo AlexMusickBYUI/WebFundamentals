@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #444444
+}
+
+main {
+    margin: 0 auto;
+    max-width: 300px;
+    background-color: #FFFFFF
+}
+
+.card-img {
+    display: block;
+    margin: 0 auto;
+}
+
+.age {
+    text-align: center;
+}
+
+.card h1 {
+    text-align: center;
+}
+
+.content {
+    text-align: center;
+    color: #555555;
+    /* max-width: 250px; */
+}
+
+article {
+    margin: 0 auto;
+    max-width: 250px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.infobox {
+    background-color: #9999FF
+}
+
+footer p {
+    height: 50px;
+    text-align: center;
+    margin: 0 auto;
+}
