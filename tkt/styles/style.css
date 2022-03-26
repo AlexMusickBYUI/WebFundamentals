@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Righteous&display=swap');
+
 :root {
     --primary-color: #5171A5   ;
     --secondary-color: #9BC995 ;
@@ -10,6 +12,7 @@
 
 * {
     box-sizing: border-box;
+    font-family: var(--paragraph-font);
 }
 
 h1 {
@@ -164,4 +167,58 @@ footer p:nth-of-type(1) {
     margin-top: 300px;
     font-size: 1.3em;
     color: black;
+}
+
+/* faq specific */
+
+#faq-header {
+    height: 400px;
+    overflow: hidden;
+}
+
+#faq-links {
+    margin: 0 auto;
+    width: 80vw;
+    margin-bottom: 130px;
+}
+
+#faq-links a {
+    display: block;
+    text-align: center;
+    margin: 15px;
+    font-size: 2.5em;
+    text-decoration: underline;
+    color: var(--primary-color);
+}
+
+#faq-links a:hover {
+    color: var(--secondary-color);
+}
+
+#faq-content {
+    width: 70vw;
+    margin: 0 auto;
+}
+
+.faq-item {
+    text-align: center;
+}
+
+.faq-item h2 {
+    font-family: var(--heading-font);
+    text-shadow: none;
+    font-size: 2em;
+}
+
+.faq-item p {
+    font-family: var(--paragraph-font);
+    font-size: 2em;
+}
+
+.faq-item a {
+    color: var(--primary-color);
+}
+
+.faq-item a:hover {
+    color: var(--secondary-color);
 }
