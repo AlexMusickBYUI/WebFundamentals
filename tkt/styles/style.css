@@ -28,10 +28,6 @@ body {
     overflow-x: hidden;
 }
 
-.spacer {
-    height: 30px;
-}
-
 #nav-bar {
     background-color: var(--primary-color);
     display: grid;
@@ -71,8 +67,11 @@ body {
     z-index: -2;
     max-width: 100%;
     margin-top: 0;
-    width: 3840px;
-    min-width: 3840px;
+    /* width: 3840px;
+    min-width: 3840px; */
+    height: 100%;
+    object-fit: cover;
+    width: 100vw;
 }
 
 .hero h1 {
@@ -130,6 +129,7 @@ body {
 .hero .download-button a {
     text-decoration: none;
     text-align: center;
+    justify-self: center;
     /* text-justify: center; */
     color: var(--accent2-color);
 }
